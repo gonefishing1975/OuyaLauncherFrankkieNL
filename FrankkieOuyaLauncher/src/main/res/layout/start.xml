@@ -120,7 +120,7 @@
                         android:layout_height="25dp"/>
 
                 <Button
-                        android:text="OUYA Games"
+                        android:text="Games"
                         android:id="@+id/start_games"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
@@ -132,7 +132,7 @@
                         android:layout_height="wrap_content"/>
 
                 <Button
-                        android:text="Favorites"
+                        android:text="MyFavorites"
                         android:id="@+id/start_favorites"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
@@ -150,7 +150,7 @@
                         android:layout_height="wrap_content"/>
 
                 <Button
-                        android:text="Discover"
+                        android:text="Download"
                         android:id="@+id/start_discover"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
@@ -183,7 +183,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                        android:id="@+id/clock_container"
+                        android:id="@+id/clock_container" android:visibility="gone" 
                         android:orientation="vertical"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
